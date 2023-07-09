@@ -1,0 +1,76 @@
+body {
+    background: #333333 !important;
+}
+
+.vh-70 {
+    height: 70vh;
+}
+
+.vh-30 {
+    height: 30vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-40 {
+    height: 40vh;
+}
+
+
+.bg-dark-grey {
+    background-color: #333333;
+}
+
+.bg-light-grey {
+    background-color: #444444;
+}
+
+.border-bottom-dg {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333333;
+}
+
+.border-sides {
+    border-right: 2px solid #303030;
+    border-left: 2px solid #303030;
+    border-bottom: 2px solid #303030;
+}
+
+.circular-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #555555;
+    transition: transform 0.2s;
+}
+
+.circular-link:hover {
+    transform: translateY(2px)
+}
+
+.inline-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.submit-button {
+    background-color: #444444 !important;
+}
+
+.submit-button:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.player-image {
+    width: 100px;
+    height: 100px;
+}
